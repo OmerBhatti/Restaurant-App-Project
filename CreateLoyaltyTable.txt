@@ -1,0 +1,5 @@
+CREATE TABLE `loyalty` (
+ `card_no` int(10) NOT NULL AUTO_INCREMENT,
+ `points` int(10) NOT NULL DEFAULT '50',
+ PRIMARY KEY (`card_no`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8
